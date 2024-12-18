@@ -1,6 +1,7 @@
 "use client"
 
-import Hero from "@/components/sub/Hero"
+import Hero from "@/components/Hero"
+import About from "@/components/About"
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
+      <About />
     </div>
   )
 }
