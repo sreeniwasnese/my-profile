@@ -2,6 +2,8 @@
 
 import Hero from "@/components/Hero"
 import About from "@/components/About"
+import Experience from "../components/Experience"
+import Skills from "@/components/Skills"
 
 
 const Home = () => {
@@ -10,6 +12,8 @@ const Home = () => {
     <div>
       <Hero />
       <About />
+      <Experience />
+      <Skills />
     </div>
   )
 }
