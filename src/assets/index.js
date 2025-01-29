@@ -24,22 +24,22 @@ import AwardFillIcon from 'remixicon-react/AwardFillIcon'
 export const aboutData = [
   {
     title: 'Github Repos',
-    amount: 348,
+    amount: 30,
     icon: <GithubFillIcon />,
   },
   {
     title: 'Successful Projects',
-    amount: 227,
+    amount: 17,
     icon: <Projector2LineIcon />,
   },
   {
     title: 'Satisfied clients',
-    amount: 176,
+    amount: 12,
     icon: <GroupLineIcon />,
   },
   {
     title: 'Awards and Recognition',
-    amount: 107,
+    amount: 3,
     icon: <AwardFillIcon />,
   },
 ]
@@ -51,7 +51,7 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-  " Hi, I'm Nick, a web developer & designer. I blend the technical  skills of web development with the creative aspects of web design. I code in HTML, CSS, JavaScript, React, NextJS... to build functional and responsive websites, while also using design tools like Photoshop and Figma to create visually appealing and user-friendly  interfaces. My role allows me to ensure that websites not only work well but also look great and provide an excellent user experience."
+  " Hi, I'm Srinivas, Highly skilled and experienced Full Stack Developer with over 4+ years of expertise in developing and maintaining applications using Next.js. Proficient in building serverless solutions with Supabase, implementing robust backend systems with NestJS, and integrating various tools and libraries for scalable and performant applications. Adept at collaborating with cross-functional teams, delivering projects on time, and maintaining high code quality. Experienced in delivering solutions across diverse domains, including eCommerce, healthcare, and finance."
 // End of AboutMe icons
 
 
@@ -144,52 +144,39 @@ export const copyRightIcon = <CopyrightLineIcon />
 export const experienceData = [
   {
     year: 1,
-    title: 'Foundation and Basics',
+    title: 'Specialized Education and Real-World Application',
     education:
-      'High School Diploma: Focus on computer science, mathematics, and art/design courses.',
+      'Online Courses and Bootcamps: Focus on specialized areas like front-end React framework NextJS and back-end technologies (Node.js).',
     experience: [
-      'Basic HTML/CSS: Learn through online tutorials and courses.',
-      'Personal Projects: Create simple personal websites or blogs.',
+      'Completed Intrenship and small industrial projects as an associative software developer',
     ],
   },
   {
     year: 2,
-    title: 'Advanced Learning and Early Experience',
+    title: 'Project1: ECommerce Platform for Local Retailers',
     education:
-      'Associate’s Degree in Web Development or Design: Enroll in a 2-year program covering web development and design principles.',
-    experience: [
-      'Freelance Work: Take on small freelance projects to build a portfolio.',
-      'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
+      'Udemy course and started learning on Testing like RTL, unit tests. to enhance code quality',
+   experience: [
+      'Successfully transitioned to handling independent tasks by the end of the project, such as building dashboard interfaces for vendor management.',
     ],
   },
   {
     year: 3,
-    title: 'Specialized Education and Real-World Application',
+    title: 'Project2: Healthcare Appointment Scheduling Platform',
     education:
-      'Online Courses and Bootcamps: Focus on specialized areas like front-end frameworks (React, Angular) and back-end technologies (Node.js).',
+      'Online Courses and Bootcamps: Focus on specialized learning Data structures and Algorithams',
     experience: [
-      'Internships: Secure internships with tech companies or design agencies.',
-      'Contribute to Open Source: Collaborate on open-source projects.',
+      'Took on mentorship responsibilities for junior developers and enhanced team productivity by suggesting best practices in code organization and testing.',
     ],
   },
   {
     year: 4,
-    title: 'Building Expertise and Expanding Skills',
-    education: 'Certifications: Obtain certifications in advanced web technologies.',
+    title: 'Project3: Multi-Vendor ECommerce Marketplace',
+    education: 'Online Courses and Bootcamps: Completed React Native and Dockers courses that enhances my knowledge on mobile development as well',
     experience: [
-      'Full-Time Position: Work as a junior web developer or designer.',
-      'Portfolio Development: Continuously update your portfolio with professional and personal projects.',
+      'Played a pivotal role in onboarding new developers, establishing team best practices, and ensuring smooth delivery of high-quality features'
     ],
-  },
-  {
-    year: 5,
-    title: 'Mastery and Leadership',
-    education: 'Workshops and Conferences: Attend industry events to stay updated.',
-    experience: [
-      'Senior Position: Aim for a senior web developer or lead designer role, mentoring junior colleagues.',
-      'Freelance and Consulting: Consider starting a freelance business or consulting practice.',
-    ],
-  },
+  }
 ]
 
 export const projectsData = [
@@ -275,7 +262,6 @@ import HistoryLineIcon from 'remixicon-react/HistoryLineIcon'
 import BriefcaseLineIcon from 'remixicon-react/BriefcaseLineIcon'
 import UserStarLineIcon from 'remixicon-react/UserStarLineIcon'
 import ProjectorLineIcon from 'remixicon-react/ProjectorLineIcon'
-import PriceTag3LineIcon from 'remixicon-react/PriceTag3LineIcon'
 import ContactsBook2LineIcon from 'remixicon-react/ContactsBook2LineIcon'
 import QuestionAnswerLineIcon from 'remixicon-react/QuestionAnswerLineIcon'
 
@@ -309,11 +295,6 @@ export const navbarData = [
     id: 'projects',
     name: 'Projects',
     icon: <ProjectorLineIcon />,
-  },
-  {
-    id: 'pricing',
-    name: 'Pricing',
-    icon: <PriceTag3LineIcon />,
   },
   {
     id: 'contact',
@@ -436,60 +417,6 @@ export const reviewsData = [
     stars: [1, 1, 1, 1, 1],
   },
 ]
-
-export const pricingPlans = [
-  {
-    title: 'Basic',
-    pricing: '$500 - $1,000',
-    features: [
-      'Up to 5 pages',
-      'Responsive design ',
-      'Basic SEO ',
-      'Contact form',
-      'Social media links',
-      '1 month support',
-    ],
-    recommended: 'Small businesses, personal websites, bloggers',
-  },
-  {
-    title: 'Premium',
-    pricing: '$5,000 - $10,000',
-    features: [
-      'Unlimited pages',
-      'Responsive design',
-      'Comprehensive SEO',
-      'Contact form ',
-      'Social media links',
-      'Advanced security',
-      'E-commerce (unlimited products)',
-      'Blog setup',
-      'Google Analytics with custom reports',
-      '6 months support',
-    ],
-    recommended: 'Medium-sized businesses, online stores, service providers',
-  },
-  {
-    title: 'Standard',
-    pricing: '$1,500 - $3,000',
-    features: [
-      'Up to 10 pages',
-      'Responsive design',
-      'Advanced SEO',
-      'CContact form',
-      'Social media links',
-      'E-commerce (20 products)',
-      'Blog setup',
-      'Google Analytics',
-      '3 months support',
-    ],
-    recommended: 'Large businesses, complex e-commerce sites, custom web applications',
-  },
-]
-
-import CheckLineIcon from 'remixicon-react/CheckLineIcon'
-
-export const checkIcon = <CheckLineIcon />
-
 
 
 // Toggle

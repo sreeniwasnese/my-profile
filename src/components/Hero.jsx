@@ -18,8 +18,6 @@ const Hero = () => {
     const y = useMotionValue(0)
 
     const { innerWidth, innerHeight } = windowOffset
-    // const rotateY = useTransform(x, [0, innerWidth], [-30, 30])
-    // const rotateX = useTransform(y, [0, innerHeight], [10, -50])
 
     const xSpring = useSpring(x, { stiffness: 100, damping: 10 })
     const ySpring = useSpring(y, { stiffness: 100, damping: 10 })
@@ -33,13 +31,6 @@ const Hero = () => {
         const {clientX, clientY} = e
         x.set(clientX)
         y.set(clientY)
-
-        // console.log({
-        //     clientX: clientX,
-        //     clientY: clientY,
-        //     X: x,
-        //     Y: y
-        // });
     }
 
     const handleMouse = () => {
@@ -48,11 +39,6 @@ const Hero = () => {
             innerHeight: window.innerHeight
         })
         setMouseMove(true)
-
-        // console.log({
-        //     InnerWidth: innerWidth,
-        //     InnerHeight: innerHeight
-        // });
     }
 
 
@@ -64,6 +50,7 @@ const Hero = () => {
         onMouseMove={handleMouseMove} 
         onMouseEnter={handleMouse}
     >
+      
         <div>
             <div className="flex flex-col items-center justify-center gap-y-3 font-light capitalize">
                 <motion.div 
