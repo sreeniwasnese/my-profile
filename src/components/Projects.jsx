@@ -35,7 +35,7 @@ const Projects = () => {
     },[index])
     
   return (
-    <div className="min-h-screen py-20 px-80">
+    <div className="min-h-screen py-20 px-80" id="projects">
       <Heading text={'Projects'} />
 
       <div className="flex flex-wrap items-center justify-between gap-4 py-10">

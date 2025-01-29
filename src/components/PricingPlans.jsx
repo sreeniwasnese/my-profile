@@ -9,7 +9,7 @@ import { pricingPlans, checkIcon } from '@/assets'
 const PricingPlans = () => {
 
   return (
-    <div className='py-20 px-96'>
+    <div className='py-20 px-96' id='pricing'>
         <Heading text={"Pricing Plans"} />
 
         <div className='h-full flex lg:flex-col items-center justify-between gap-8'>
